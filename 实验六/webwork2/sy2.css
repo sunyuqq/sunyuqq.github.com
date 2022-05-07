@@ -1,0 +1,87 @@
+li{
+    list-style: none;
+}
+.yl{
+    width: 600px;
+    height: 485px;
+    background: url("e06-2.png");
+    opacity: .4;
+}
+.all{
+    position: absolute;
+    top:8px;
+    width: 600px;
+    height: 485px;
+    background-color: rgb(109, 155, 103);
+}
+.above{
+    position: absolute;
+    top: 46px;
+    left: 102px;
+    width: 423px;
+    height: 283px;
+    background-color: rgb(243, 237, 229);
+}
+.under{
+    position: absolute;
+    background-color: pink;
+    top: 328px;
+    left: 102px;
+    width: 423px;
+    height: 120px;
+}
+#bt{
+    position: absolute;
+    background-color: white;
+    top: 12px;
+    left: 12px;
+    height: 20px;
+    width: 400px;
+}
+#xx{
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    height: 20px;
+    top: 43px;
+    left: 12px;
+}
+#jg{
+    position: absolute;
+    background-color: white;
+    top: 77px;
+    left: 12px;
+    width: 400px;
+    height: 32px;
+}
+#jtxx{
+    position: absolute;
+    left: 6px;
+    font-size: 1;
+}
+#btwz{
+    position: absolute;
+    left: 6px;
+    color: red;
+    font-size: 1;
+}
+#stjg{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    color: red;
+    font-size: 18px;
+}
+
+#yj{
+    font-size: 1;
+    position: absolute;
+    top: 11px;
+    left: 102px;
+}
+#ys{
+    position: absolute;
+    font-size: 1;
+    left: 334px;
+    top: 12px;
+}

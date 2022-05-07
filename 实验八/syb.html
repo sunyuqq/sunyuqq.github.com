@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>title: 实验8 JQuery基本练习 theme: light</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sy.css">
+    
+
+<body>
+    <ul id="tap">
+        <li id="bq1" onclick="show(1)">作业1</li>
+        <li id="bq2" onclick="show(2)">作业2</li>
+        <li id="bq3" onclick="show(3)">作业3</li>
+    </ul>
+    <div id="container">
+        <div id="content1" style="z-index: 1;">
+                <span id="sp1"><img class="img" src="test1.png" onmouseover="showImg1()" onmouseout="hideImg1()"/></span>
+                <div id="big_pic1"><img src="test1.png" ></div>
+                <span id="sp2"><img class="img" src="test2.png" onmouseover="showImg2()" onmouseout="hideImg2()"/></span>
+                <div id="big_pic2"><img src="test2.png" ></div>
+                <span id="sp3"><img class="img" src="test3.png" onmouseover="showImg3()" onmouseout="hideImg3()"/></span>
+                <div id="big_pic3"><img src="test3.png" ></div>
+                <span id="sp4"><img class="img" src="test4.png" onmouseover="showImg4()" onmouseout="hideImg4()"/></span>
+                <div id="big_pic4"><img src="test4.png" ></div>
+        </div>
+        <div id="content2">
+            <div class="l1">
+                <span class="btn" id="btn">1</span>
+                <span class="btn" id="btn">2</span>
+                <span class="btn" id="btn">3</span>
+            </div>
+            <div class="main0" id="main0">
+                <div class="item0" id="item0">1</div>
+                <div class="item0" id="item0">2</div>
+                <div class="item0" id="item0">3</div>
+            </div>
+        </div>
+        <div id="content3">
+            <div class="main" id="main">
+                <div class="item" id="item">
+                    <span class="left" id="left"></span>
+                    <span class="right" id="right">Delete</span>
+                </div>
+                <div class="item" id="item">
+                    <span class="left" id="left">1</span>
+                    <span class="right" id="right">Delete</span>
+                </div>
+                <div class="item" id="item">
+                    <span class="left" id="left">2</span>
+                    <span class="right" id="right">Delete</span>
+                </div>
+                <div class="item" id="item">
+                    <span class="left" id="left">3</span>
+                    <span class="right" id="right">Delete</span>
+                </div>
+            </div>
+            <button id="bt">添加</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="sy.js"></script>
+</body>
+
+</html>
